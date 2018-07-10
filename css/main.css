@@ -1,0 +1,377 @@
+
+.outsourcing {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+.outsourcing_block {
+  width: 16.6666667%;
+  height: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.outsourcing_block p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 20px;
+}
+.outsourcing_block.tran {
+  background-color: transparent;
+}
+.outsourcing_block.green{
+  background-color: #c3ca46;
+}
+.outsourcing_block.green.margin {
+  margin-top: 16vw;
+}
+.outsourcing_block.marine{
+  background-color: #53947e;
+}
+.outsourcing_block.dark{
+  background-color: #322634;
+}
+.outsourcing_block.grey{
+  background-color: #ebebeb;
+}
+.outsourcing_block.tran, .outsourcing_block.grey {
+  color: inherit;
+}
+.outsourcing_block.green, .outsourcing_block.marine,
+.outsourcing_block.dark {
+  color: #fff;
+}
+.outsourcing_block.contentPart {
+  width: 50%;
+  margin-left: 16.666667%;
+  height: auto;
+  display: block;
+  padding-right: 10vw;
+  position: relative;
+}
+.outsourcing_block.contentPart h2 {
+  font-size: 2.5rem;
+  font-family:  Gotham Pro Bd;
+  text-align: left;
+  width: 100%;
+  margin-top: 5vw;
+}
+.outsourcing_block.contentPart h2>span {
+  font-family:  Gotham Pro Lt;
+  font-weight: 300;
+  margin-left: 25%;
+}
+.outsourcing_block.contentPart p {
+  text-transform: none;
+  text-align: left;
+  padding: 0;
+  font-size: 1.1rem;
+  position: relative;
+  line-height: 1.4;
+}
+.outsourcing_block.contentPart p>span {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.outsourcing_block.contentPart .sideBoard {
+  width: 4px;
+  height: 170px;
+  position: absolute;
+  top: 3px;
+  left: -54px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../img/sideBoard.jpg);
+}
+
+
+/* ================================= */
+.huge_bcg {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../img/huge_bcg.jpg);
+}
+/* ================================= */
+
+.service {
+  width: 100%;
+  height: 32vw;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50vw 100%;
+  background-image: url(../img/typing.jpg);
+}
+.service>.outsourcing_block:first-child {
+  margin-left: 16.66667%;
+}
+.service>.outsourcing_block:first-child>h2 {
+  font-size: 2.5rem;
+  font-family:  Gotham Pro Lt;
+  text-align: left;
+  width: 100%;
+  font-weight: 300;
+}
+.service>.outsourcing_block:first-child>h2>span {
+  font-family:  Gotham Pro Bl;
+  margin-left: 10%;
+}
+.service>.outsourcing_block .title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.4;
+}
+.service>.outsourcing_block {
+  padding: 0 30px;
+}
+.service>.outsourcing_block.marine {
+  width: 33.333334%;
+  padding: 0 70px;
+}
+.service>.outsourcing_block.marine>.topPart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.service>.outsourcing_block.marine>.topPart ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.service>.outsourcing_block.marine>.topPart ul li a {
+  font-size: 1rem;
+  color: #fff;
+}
+.service>.outsourcing_block.marine>.topPart ul li a>i {
+  margin-right: 10px;
+}
+.service>.outsourcing_block.grey {
+  margin-left: 50%;
+}
+.service>.outsourcing_block>a {
+  display: block;
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  line-height: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+.service>.outsourcing_block.grey>a {
+  color: #494249;
+}
+.service>.outsourcing_block.marine>a {
+  color: #53947e;
+}
+.service>.outsourcing_block.green>a {
+  color: #c3ca46;
+}
+.service>.outsourcing_block.dark>a {
+  color: #322634;
+}
+.service>.outsourcing_block>p {
+  text-transform: none;
+}
+.service>.outsourcing_block.dark>p {
+  font-size: 1.1rem;
+}
+.service>.outsourcing_block.dark>p>span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family:  Gotham Pro Bd;
+}
+.service>.outsourcing_block>span.index {
+  position: absolute;
+  top: -13px;
+  right: 0;
+  font-size: 4rem;
+  color: #fff;
+  opacity: 0.2;
+  font-family: Gotham Pro Bd;
+  pointer-events: none;
+}
+.service>.outsourcing_block.grey>span.index {
+  color: inherit;
+}
+
+
+
+/* ================================ */
+.how {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../img/how_bcg.png);
+  padding-bottom: 90px;
+}
+.how .container {
+  height: 760px;
+}
+.how h2 {
+  font-size: 2.7rem;
+  font-family:  Gotham Pro Lt;
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  font-weight: 300;
+}
+.how h2>span {
+  font-family:  Gotham Pro Bd;
+}
+.how .rightPart {
+  width: 50%;
+  margin-left: 50%;
+  background-color: #fff;
+  float: none;
+}
+.how_block {
+  width: 50%;
+  margin-bottom: 30px;
+  padding-right: 60px;
+}
+.how_block>.img_wrap {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.how_block>.img_wrap>img {
+  width: 60px;
+}
+.how_block>.text {
+  font-size: 1rem;
+  font-family:  Gotham Pro Lt;
+  font-weight: 300;
+}
+
+/* ============================== */
+.feedback {
+  width: 100%;
+}
+.feedback h2 {
+  font-size: 2.7rem;
+  font-family:  Gotham Pro Lt;
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  font-weight: 300;
+}
+.feedback h2>span {
+  font-family:  Gotham Pro Bl;
+}
+.feedback_slider_wrap {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.feedback .leftPart {
+  width: 29.333334%;
+  height: 36vw;
+  margin-left: 16.666667%;
+  padding: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../img/feedback_bcg.jpg);
+  margin-right: 4%;
+}
+.feedback .leftPart .leftPart_wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.feedback .leftPart .leftPart_wrap>p {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+.feedback .leftPart .leftPart_wrap>p>span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.feedback .leftPart .leftPart_wrap>p.active {
+  display: block;
+}
+.feedback .rightPart {
+  width: 50%;
+  height: 36vw;
+}
+.feedback .rightPart .feedback_slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.feedback .rightPart .feedback_slider .feedback_box {
+  width: 33.333334%;
+  height: 36vw;
+}
+.feedback .rightPart .feedback_slider .feedback_box>.feedback_block {
+  width: 100%;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+.slick-slide>div {
+  width: 33.333334%;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n-1)>.feedback_block:first-child {
+  background-color: #53947e;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n-1)>.feedback_block:last-child {
+  background-color: #c3ca46;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:first-child {
+  background-color: #322634;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child {
+  background-color: #ebebeb;
+}
+.feedback_block .name {
+  text-transform: uppercase;
+  font-weight: 700px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family:  Gotham Pro Bd;
+}
+.feedback_block .position {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.feedback_block .city {
+  font-size: 0.9rem;
+  font-family:  Gotham Pro Bd;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child .name,
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child .position,
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child .city {
+  color: inherit;
+}
