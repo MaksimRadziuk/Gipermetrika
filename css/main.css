@@ -211,13 +211,16 @@
   height: 30px;
   border-radius: 15px;
   background-color: #fff;
-  line-height: 33px;
+  line-height: 30px;
   text-align: center;
   font-size: 0.6rem;
   margin-top: 30px;
   text-transform: uppercase;
   font-weight: 600;
+  box-sizing: border-box;
+  transition: all .2s linear;
 }
+
 .service>.outsourcing_block.grey>a {
   color: #494249;
 }
@@ -235,6 +238,16 @@
 }
 .service>.outsourcing_block.dark>p {
   font-size: 1.1rem;
+}
+.service>.outsourcing_block>a:hover {
+  background-color: #494249;
+  color: #fff;
+}
+.service>.outsourcing_block.grey>a:hover {
+  background-color: #fff;
+  color: #494249;
+  border:1px solid #494249;
+  line-height: 28px;
 }
 .service>.outsourcing_block.dark>p>span {
   font-size: 1.6rem;
