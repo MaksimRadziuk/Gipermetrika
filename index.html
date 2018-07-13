@@ -30,6 +30,24 @@
 <body>
 
 <div class="content">
+	<div class="mobile" id="mobile_navigation">
+		<ul>
+			<li>поддержка серверов <i class="fa fa-angle-down" aria-hidden="true"></i>
+				<ul class="submenu">
+					<li><a href="">разовые работы</a></li>
+					<li><a href="">срочная помощь</a></li>
+					<li><a href="">настройка</a></li>
+					<li><a href="">администрирование</a></li>
+				</ul>
+			</li>
+			<li><a href="">управление инфраструктурой</a></li>
+			<li><a href="">devops</a></li>
+			<li><a href="">bigdata</a></li>
+			<li><a href="">о компании</a></li>
+			<li><a href="">контакты</a></li>
+			<li><a href="">связаться с нами</a></li>
+		</ul>
+	</div>
 	<header>
 		<div class="container">
 			<div class="topBar">
@@ -41,7 +59,10 @@
 					<div class="callback">
 						<a href="tel:+74956637271">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							+7 (495) 663 72 71</a>
+							<span>+7 (495) 663 72 71</span></a>
+						<div class="mobile menu_trigger">
+							<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
 						<button class="emergency">Получить срочную помощь</button>
 					</div>
 				</div>
@@ -92,7 +113,7 @@
 				</div>
 			</div>
 			<div class="pagination">
-				<div class="pagination_block" id="pag-one">
+				<div class="pagination_block active" id="pag-one">
 					<span>01</span>
 					<div class="link"><a href="">о компании</a></div>
 				</div>
@@ -119,7 +140,7 @@
 			<img src="img/out1.png" alt="">
 			<p>Работаем с частными лицами, веб-студиями, организацями</p>
 		</div>
-		<div class="outsourcing_block tran">
+		<div class="outsourcing_block tran visible">
 			<img src="img/out2.png" alt="">
 			<p>Оперативно решаем ваши проблемы и обрабатываем запросы</p>
 		</div>
@@ -158,7 +179,7 @@
 	</div>
 	<div class="huge_bcg">
 		<div class="service">
-			<div class="outsourcing_block tran">
+			<div class="outsourcing_block tran visible">
 				<h2>Что мы <br><span>предлагаем</span></h2>
 			</div>
 			<div class="outsourcing_block marine">
@@ -371,16 +392,20 @@
 	<footer>
 		<div class="container">
 			<div class="logo_wrap"><img src="img/logo.png" alt=""></div>
-			<a href="">Политика конфиденциальности</a>
-			<a href="">Использование cookies</a>
-			<a href="">Пользовательское соглашение</a>
-			<div class="social_wrap">
-				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+			<div class="policies">
+				<a href="">Политика конфиденциальности</a>
+				<a href="">Использование cookies</a>
+				<a href="">Пользовательское соглашение</a>
 			</div>
-			<span>&copy Все права защищены</span>
+			<div class="copyright">
+				<div class="social_wrap">
+					<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</div>
+				<span>&copy Все права защищены</span>
+			</div>
 		</div>
 	</footer>
 </div>
