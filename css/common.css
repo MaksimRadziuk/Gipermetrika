@@ -78,7 +78,7 @@ header {
   float: left;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 16vw);
 }
 header>.container {
   position: absolute;
@@ -603,7 +603,11 @@ footer span {
   min-width: 70px;
   margin-left: 10px;
 }
-
+@media all and (max-height:1050px) {
+  header {
+    height:100vh;
+  }
+}
 @media all and (max-width:1550px) {
   footer .social_wrap a {
     margin-right: 5px;
