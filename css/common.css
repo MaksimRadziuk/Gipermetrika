@@ -750,6 +750,7 @@ footer span {
     margin-left: 0;
     font-size: 0.9rem;
     width: 255px;
+    margin-right: 100px;
   }
   .topBar {
     padding: 0;
@@ -758,6 +759,9 @@ footer span {
     height: 50px;
     width: 50px;
     background-color: #322634;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
   .menu_trigger .hamburger {
     width: 100%;
@@ -770,15 +774,48 @@ footer span {
     margin: 0;
     color: #fff;
   }
+  .menu_trigger .hamburger>i.fa-times {
+    display: none;
+  }
+  .menu_trigger.active {
+    background-color: #fff;
+  }
+  .menu_trigger.active .hamburger>i.fa-times {
+    display: block;
+    color:#322634;
+  }
+  .menu_trigger.active .hamburger>i.fa-bars {
+    display: none;
+  }
   .topBar .topBar_wrap .callback a {
-    display: inline-block;
+    display: block;
     width: 50px;
     height: 50px;
     background-color: #bec63d;
     text-align: center;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    transition: all .2s linear;
   }
   .topBar .topBar_wrap .callback a>span {
     display: none;
+  }
+  .topBar .topBar_wrap .callback.active {
+    width: 100%;
+  }
+  .topBar .topBar_wrap .callback.active a {
+    width:calc(100vw - 50px);
+    text-align:left;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .topBar .topBar_wrap .callback.active a>span {
+    display: inline-block;
+    color: #fff;
+    font-family: Gotham Pro Lt;
+    margin-left: 10px;
+    font-size: 1.1rem;
   }
   .topBar .topBar_wrap .callback a>i {
     color: #fff;
@@ -822,7 +859,7 @@ footer span {
   }
   #mobile_navigation {
     width: 100%;
-    background-color: #322634;
+    background-color: #fff;
     position: absolute;
     left: 0;
     top: 50px;
@@ -834,20 +871,22 @@ footer span {
             box-sizing: border-box;
     width: 100%;
     margin: 0;
-    padding-left: 20px;
+    padding-left: 40px;
     float: left;
+    padding-top: 30px;
+    margin-bottom: 30px;
   }
   #mobile_navigation>ul>li {
     width: 100%;
     padding: 20px 0;
     float: left;
     font-size: 1rem;
-    color:#fff;
+    color:#322634;
     text-transform: uppercase;
   }
   #mobile_navigation>ul>li>a {
     font-size: 1rem;
-    color:#fff;
+    color:#322634;
     text-transform: uppercase;
   }
   #mobile_navigation>ul>li:hover {
@@ -866,6 +905,17 @@ footer span {
     display: none;
     margin-top: 20px;
   }
+  #mobile_navigation button.emergency {
+    margin:50px auto;
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #53947e;
+    color: #fff;
+    font-size: 0.9rem;
+    border:none;
+  }
   #mobile_navigation>ul>li>.submenu>li {
     width: 100%;
     padding: 10px 0;
@@ -875,7 +925,7 @@ footer span {
   }
   #mobile_navigation>ul>li>.submenu>li>a {
     font-size: 1rem;
-    color:#fff;
+    color:#322634;
     text-transform: uppercase;
   }
   #mobile_navigation>ul>li>.submenu>li>a:hover {
