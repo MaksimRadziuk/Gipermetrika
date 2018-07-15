@@ -94,19 +94,19 @@ $(document).ready(function(){
 
 
 	$('#pag-one').click(function(){
-		$('.slider_block').fadeOut().delay(400);
+		$('.slider_block').fadeOut().delay(200);
 		$('#slide-one').fadeIn(400);
 	});
 	$('#pag-two').click(function(){
-		$('.slider_block').fadeOut().delay(400);
+		$('.slider_block').fadeOut().delay(200);
 		$('#slide-two').fadeIn(400);
 	});
 	$('#pag-three').click(function(){
-		$('.slider_block').fadeOut().delay(400);
+		$('.slider_block').fadeOut().delay(200);
 		$('#slide-three').fadeIn(400);
 	});
 	$('#pag-four').click(function(){
-		$('.slider_block').fadeOut().delay(400);
+		$('.slider_block').fadeOut().delay(200);
 		$('#slide-four').fadeIn(400);
 	});
 

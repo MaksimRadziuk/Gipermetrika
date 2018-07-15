@@ -79,6 +79,7 @@ header {
   position: relative;
   width: 100%;
   height: calc(100vh - 16vw);
+  background-color: #6d6d6d;
 }
 header>.container {
   position: absolute;
@@ -213,7 +214,7 @@ header>.container {
   left: 0;
   width: 250px;
   background-color: #fff;
-  padding-left: 0;
+  padding:10px 0;
 }
 .topBar nav>ul>li:hover>ul.submenu {
   display: block;
@@ -272,6 +273,7 @@ header>.container {
   font-size: 2.3rem;
   font-family:  Gotham Pro Lt;
   font-weight: 300;
+  color: #fff;
 }
 .slider_block .slogan span {
   margin-bottom: 20px;
@@ -282,6 +284,7 @@ header>.container {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 .slider_block .slogan>span.last {
   margin-left: 20%;
@@ -663,6 +666,7 @@ footer span {
     left: 0;
     bottom: 0;
     right: auto;
+    z-index: 5;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -691,9 +695,6 @@ footer span {
   }
   .topBar .topBar_wrap img {
     width: 150px;
-  }
-  .pagination {
-    z-index: 5;
   }
   .pagination_block>.link {
     left: 0;
