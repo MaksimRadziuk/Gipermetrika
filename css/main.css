@@ -973,6 +973,18 @@
 .feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child {
   background-color: #ebebeb;
 }
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n-1)>.feedback_block.active:first-child {
+  background-color: #fff;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n-1)>.feedback_block.active:last-child {
+  background-color: #fff;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block.active:first-child {
+  background-color: #fff;
+}
+.feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block.active:last-child {
+  background-color: #fff;
+}
 .feedback_block .name {
   text-transform: uppercase;
   font-weight: 700;
@@ -1002,6 +1014,19 @@
 .feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child .position,
 .feedback .rightPart .feedback_slider .feedback_box:nth-child(2n)>.feedback_block:last-child .city {
   color: inherit;
+}
+.feedback .rightPart .feedback_slider .feedback_box .feedback_block.active {
+  background-color: #fff;
+  border: 3px solid #c3ca46;
+}
+.feedback_block.active .name {
+  color:inherit;
+}
+.feedback_block.active .position {
+  color:inherit;
+}
+.feedback_block.active .city {
+  color:inherit;
 }
 
 

@@ -87,7 +87,7 @@ header>.container {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  z-index: 1;
+  z-index: 4;
   height: auto;
 }
 .topBar {
@@ -194,6 +194,7 @@ header>.container {
   display: inline-block;
   height: 100%;
   position: relative;
+  z-index: 11;
 }
 .topBar nav>ul>li>a {
   font-size: 0.8rem;
@@ -215,6 +216,7 @@ header>.container {
   width: 250px;
   background-color: #fff;
   padding:10px 0;
+  z-index: 11;
 }
 .topBar nav>ul>li:hover>ul.submenu {
   display: block;
@@ -324,7 +326,7 @@ header>.container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  z-index: 3;
+  z-index:3;
 }
 .pagination_block {
   width: 7.3vw;
