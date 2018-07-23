@@ -855,7 +855,7 @@
   font-weight: 300;
 }
 .feedback h2>span {
-  font-family:  Gotham Pro Bl;
+  font-family:  Gotham Pro Bd;
 }
 .feedback_slider_wrap {
   width: 100%;
@@ -1350,16 +1350,23 @@
 .form .form_wrap form>button {
   width: 200px;
   height: 40px;
-  border: none;
+  border: 2px solid #c3ca46;
   border-radius: 20px;
+  line-height: 36px;
+  cursor:pointer;
   background-color: #c3ca46;
   color: #fff;
   text-transform: uppercase;
   font-size: 0.7rem;
   font-family: Gotham Pro Bd;
   margin-top: 50px;
+  box-sizing: border-box;
+  transition: all .2s linear;
 }
-
+.form .form_wrap form>button:hover {
+  background-color: #fff;
+  color: #c3ca46;
+}
 
 
 @media all and (max-width:1320px) {

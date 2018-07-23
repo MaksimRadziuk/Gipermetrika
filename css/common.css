@@ -80,6 +80,7 @@ header {
   width: 100%;
   height: calc(100vh - 16vw);
   background-color: #6d6d6d;
+  max-height: 900px;
 }
 header>.container {
   position: absolute;
@@ -165,9 +166,15 @@ header>.container {
   font-weight: 600;
   background-color: #53947e;
   border-radius:15px;
-  border:none;
+  border:2px solid #53947e;
   margin-left: 30px;
   cursor: pointer;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+.topBar .topBar_wrap .callback button:hover {
+  color:  #53947e;
+  background-color: #fff;
 }
 .topBar nav {
   float: left;
@@ -650,7 +657,7 @@ footer span {
 
   /* HEADER */
   header {
-    min-height: 600px;
+    min-height: 500px;
   }
   .topBar nav>ul>li>ul.submenu {
     top: 35px;
@@ -704,9 +711,11 @@ footer span {
     top: 0px;
     width: 100vw;
     z-index: -1;
+    pointer-events: none;
   }
   .pagination_block.active>.link {
     top: -50px;
+    pointer-events:auto;
   }
   .pagination_block>.link>a {
     opacity: 1;
@@ -917,7 +926,12 @@ footer span {
     background-color: #53947e;
     color: #fff;
     font-size: 0.9rem;
-    border:none;
+    border:2px solid #53947e;
+    box-sizing: border-box;
+  }
+  #mobile_navigation button.emergency:hover {
+    color: #53947e;
+    background-color: #fff;
   }
   #mobile_navigation>ul>li>.submenu>li {
     width: 100%;
@@ -1068,7 +1082,7 @@ footer span {
     margin-left: 10px;
     font-size: 0.9rem;
   }
-  
+
   .slider_block button {
     margin-top: 10vh;
     height: 60px;
@@ -1106,4 +1120,3 @@ footer span {
     font-size: 0.7rem;
   }
 }
-
